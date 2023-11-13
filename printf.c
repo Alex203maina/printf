@@ -8,10 +8,13 @@
 int _printf(const char *format, ...)
 {
 	hello n[] = {
-		{"%c", printf_char}, {"%s", printf_string}, {"%%", print_37}, {"%d", print_digit}, {"%i", print_in}, {"%b", print_bin}
+		{"%c", printf_char}, {"%s", printf_string},
+		{"%%", print_37},
+		{"%d", print_digit}, {"%i", print_in},
+		{"%b", print_bin}
 	};
 
-		va_list args;
+	va_list args;
 	int i = 0, j, length = 0;
 
 	va_start(args, format);

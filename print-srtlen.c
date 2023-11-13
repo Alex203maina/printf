@@ -8,11 +8,12 @@
 
 int _strlen(char *str)
 {
-        int i;
 
-        for (i = 0; str[i] != 0; i++)
-                ;
-        return (i);
+int i;
+
+for (i = 0; str[i] != 0; i++)
+	;
+return (i);
 }
 /**
  * _strlength - strlength function
@@ -22,9 +23,9 @@ int _strlen(char *str)
 
 int _strlength(const char *str)
 {
-        int i;
+int i;
 
-        for (i = 0; str[i] != 0; i++)
-                ;
-        return (i);
+for (i = 0; str[i] != 0; i++)
+	;
+return (i);
 }
