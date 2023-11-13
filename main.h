@@ -15,8 +15,8 @@
 
 typedef struct format
 {
-	char *p;
-	int (*func)();
+	char *id;
+	int (*f)();
 } hello;
 int _printf(const char *format, ...);
 int _putchar(char c);
