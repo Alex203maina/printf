@@ -28,5 +28,16 @@ int print_37(void);
 int print_digit(va_list args);
 int print_in(va_list args);
 int print_bin(va_list val);
+int print_uns(va_list args);
+int print_oct(va_list val);
+int print_hex(va_list val);
+int print_HEX(va_list val);
+int print_HEX_plus(unsigned int num);
+int print_cs(va_list val);
+int print_hex_plus(unsigned long int num);
+int print_pointer(va_list val);
+int print_revs(va_list val);
+
+
 
 #endif
