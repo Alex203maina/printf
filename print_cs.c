@@ -10,7 +10,7 @@
 int print_cs(va_list val)
 {
 	char *s;
-	int c, len = 0;
+	int i, len = 0;
 	int value;
 
 	s = va_arg(val, char *);
