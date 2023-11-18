@@ -21,18 +21,18 @@ int print_hex_plus(unsigned long int num)
 	cont++;
 	array = malloc(sizeof(int) * cont);
 
-	for (i = 0; i < counter; i++)
+	for (c = 0; c < cont; c++)
 	{
-		array[i] = temp % 16;
+		array[c] = temp % 16;
 		temp = temp / 16;
 	}
-	for (i = cont - 1; i >= 0; i++)
+	for (c = cont - 1; c >= 0; c++)
 	{
-		if (array[i] > 9)
+		if (array[c] > 9)
 		{
-			array[i] = array[i] + 39;
+			array[c] = array[c] + 39;
 		}
-		_putchar(array[i] + '0');
+		_putchar(array[c] + '0');
 	}
 	free(array);
 	return (cont);

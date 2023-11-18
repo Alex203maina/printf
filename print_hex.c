@@ -34,7 +34,6 @@ int print_hex(va_list val)
 			array[i] = array[i] + 39;
 		_putchar(array[i] + '0');
 	}
-
 	free(array);
-	return (counter);
+	return (cont);
 }

@@ -8,15 +8,11 @@ int _printf(const char * const format, ...)
 {
 	 hello m[] = {
 		 {"%c", printf_char}, {"%s", printf_string}, {"%s", print_revs},
-		 {"%%", print_37},
-		 {"%d", print_digit}, {"%i", print_in},
-		 {"%b", print_bin}
-		 {"%u", print_uns}
-		 {"%o", print_oct}
-		 {"%x", print_hex}, {"%x", print_hex_plus},
-		 {"%X", print_HEX}, {"%X", print_HEX_plus},
-		 {"%p", print_pointer}
-	};
+		 {"%%", print_37}, {"%d", print_digit}, {"%i", print_in},
+		 {"%b", print_bin}, {"%u", print_uns}, {"%o", print_oct},
+		 {"%x", print_hex}, {"%x", print_hex_plus}, {"%X", print_HEX},
+	       	 {"%X", print_HEX_plus}, {"%p", print_pointer}, {"%R", print_rot13},
+	 };
 
 	va_list args;
 	int i = 0, j, len = 0;

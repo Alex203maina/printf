@@ -37,7 +37,7 @@ int print_cs(va_list val);
 int print_hex_plus(unsigned long int num);
 int print_pointer(va_list val);
 int print_revs(va_list val);
-
+int print_rot13(va_list args);
 
 
 #endif

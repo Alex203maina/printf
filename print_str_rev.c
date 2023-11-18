@@ -19,7 +19,7 @@ int print_revs(va_list val)
 	}
 	while (s[i] != '\0')
 	{
-		j++;
+		i++;
 	}
 	for (c = i - 1; c >= 0; c--)
 	{

@@ -17,11 +17,11 @@ int print_pointer(va_list val)
 	p = va_arg(val, void *);
 	if (p == NULL)
 	{
-		for (i = 0; s[i] != '\0'; i++)
+		for (c = 0; s[c] != '\0'; c++)
 		{
-			_putchar(s[i]);
+			_putchar(s[c]);
 		}
-		return (i);
+		return (c);
 	}
 	z = (unsigned long int)p;
 	_putchar('0');

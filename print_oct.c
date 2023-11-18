@@ -22,18 +22,17 @@ int print_oct(va_list val)
 	cont++;
 	array = malloc(sizeof(int) * cont);
 
-	for (i = 0; i < cont; i++)
+	for (c = 0; c < cont; c++)
 	{
-		array[i] = temp % 8;
+		array[c] = temp % 8;
 		temp = temp / 8;
 	}
-	for (i = cont - 1; i >= 0; i--)
+	for (c = cont - 1; c >= 0; c--)
 	{
-		_putchar(array[i] + '0');
+		_putchar(array[c] + '0');
 	}
 
 	free(array);
-
 	return (cont);
 
 
