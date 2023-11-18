@@ -14,10 +14,7 @@ int print_cs(va_list val)
 	int value;
 
 	s = va_arg(val, char *);
-	if (s == NULL)
-	{
-		s = "(null)";
-	}
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] < 32 || s[i] >= 127)

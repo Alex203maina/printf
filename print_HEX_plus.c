@@ -20,10 +20,6 @@ int print_HEX_plus(unsigned int num)
 	}
 	cont++;
 	array = malloc(sizeof(int) * cont);
-	if (array == NULL)
-	{
-		return (NULL);
-	}
 
 	for (i = 0; i < cont; i++)
 	{

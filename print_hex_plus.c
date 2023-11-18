@@ -20,10 +20,7 @@ int print_hex_plus(unsigned long int num)
 	}
 	cont++;
 	array = malloc(sizeof(int) * cont);
-	if (array == NULL)
-	{
-		return (NULL);
-	}
+
 	for (i = 0; i < counter; i++)
 	{
 		array[i] = temp % 16;
