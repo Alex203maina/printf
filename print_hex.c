@@ -9,7 +9,7 @@
 
 int print_hex(va_list val)
 {
-	int c, cont = 0;
+	int i, cont = 0;
 	int *array;
 	unsigned int num = va_arg(val, unsigned int);
 	unsigned int temp = num;

@@ -3,7 +3,6 @@
 /**
  *print_HEX_plus - converts an integer to hex
  *@num: integral argument
-
  *Return: hexadecimal counter
  */
 
